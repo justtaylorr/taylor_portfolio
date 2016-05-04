@@ -1,0 +1,239 @@
+span {
+  float:right;
+  color: #FEFFFB;
+}
+
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*body styles*/
+
+body {
+	background-color: #35326E;
+	font-family: sans-serif;
+  line-height: 15px;
+}
+
+/*Media query which says when the screen
+is at least 700px width, that's 700px or bigger,
+make the background blue. */
+@media screen and (min-width: 700px) {
+
+	body {
+		background-color: white;
+  }
+}
+
+/*Navigation*/
+.portfolio-navigation {
+	height: 50px;
+	background-color: #35326E;
+}
+
+.navigation-item {
+	display: inline-block;
+}
+
+.navigation-menu {
+	text-align: center;
+	padding: 20px;
+}
+
+.navigation-link {
+	padding: 0 10px;
+	text-decoration: none;
+	color: #ffffff;
+	transition: color 1s;
+}
+
+.navigation-link:hover {
+	color: #A2F2B7;
+}
+.icon-error-guy {
+	color: white;
+	font-size: 30px;
+}
+.is-active {
+	border-bottom: 5px solid white;
+}
+
+.main-container {
+	background-color: #FEFFFB;
+  padding-top:25px;
+	width: 240;
+	height: 25px;
+	margin: auto;
+  border: 7px solid #35326E
+}
+
+.list{
+  background-color:white;
+  padding: 10px 40px;
+  margin: 50px;
+  border: 10px solid #35326E;
+}
+
+.aboutme-paragraph{
+  background-color:white;
+  padding: 10px 40px;
+  margin: 50px;
+  border: 5px solid #35326E;
+}
+
+hr {
+	color: gray;
+	opacity: .6;
+}
+
+.headline-main {
+	font-size: 36px;
+	font-weight: 700;
+	padding: 20px 0px;
+}
+
+.headline-section {
+	padding: 5px;
+}
+
+.contact-link {
+	display: none;
+	text-decoration: none;
+	color: #b8b8b8;
+}
+
+.contact-link:hover {
+	color: #333333;
+}
+
+.headline-section {
+	font-size: 22px;
+	border-bottom:2px solid #d2d2d2;
+}
+
+/* =======================================
+    style.css
+    use this file for your custom styles
+========================================== */
+
+/* use a box model that makes sense */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* set the default color, font-size, and line height */
+html {
+  color: #333;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.wrap {
+  margin: 0 auto;
+  max-width: 1200px; /* change this width to make a wider page!*/
+  padding: 0 1em; /* 1em of padding on the left and right side */
+}
+
+/* make images and embedded media fluid */
+img,
+object {
+  max-width: 100%;
+}
+
+/* type hierarchy- change for your project */
+h1 {
+  font-size: 3em; /* 48px */
+}
+
+h2 {
+  font-size: 2.25em /* 36px */
+}
+
+h3 {
+  font-size: 1.75em /* 28px */
+}
+
+h4 {
+  font-size: 1.125em /*18px */
+}
+
+/* navigation list styles */
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* =======================================
+    author styles
+    place your custom styles below here
+========================================== */
+
+
+
+
+
+
+
+
+
+
+
+/* =======================================
+    Layout
+    keep this at the bottom
+========================================== */
+
+@media (min-width: 620px) {
+  .column {
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .column.full {
+    width: 100%;
+  }
+
+  .column.two-thirds {
+    width: 66.7%;
+  }
+
+  .column.half {
+    width: 50%;
+  }
+
+  .column.third {
+    width: 33.3%;
+  }
+
+  .column.fourth {
+    width: 25%;
+  }
+
+  .column.flow-opposite {
+    float: right;
+  }
+}
+
+
+/* row used as a clearfix to clear floats */
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.row {
+  *zoom: 1;
+}
